@@ -5,6 +5,8 @@ html {
 body {
   font-family: Georgia, serif;
   margin: 0;
+  padding-top: 3rem;
+  padding-bottom: 6rem;
 }
 
 .site {
@@ -12,11 +14,17 @@ body {
   border: 1px solid black;
   width: 960px;
   min-height: 630px;
+  padding-bottom: 3rem;
   margin: 20px auto 0;
 }
 
 .logo {
   padding: 5px;
+  position: absolute;
+}
+
+#dartRankings {
+  text-align: center;
 }
 
 .image {
@@ -26,23 +34,25 @@ body {
 
 .entryListItem {
   display: inline-block;
-  margin: 0 10px;
+  padding-bottom: 1rem;
+  margin: 10px;
+  margin-bottom: 1rem;
   list-style-type: none;
 }
-
-
 
 .entryInfo {
   list-style-type: none;
   text-align: left;
+  text-align: center;
   margin-bottom: 5px;
+  margin-left: -50px;
 }
 
 #copy {
   text-align: center;
   color: black;
   font-size: 22px;
-  padding: 5px;
+  padding: 2rem;
   margin: 10px auto 0;
   width: 600px;
 }
@@ -57,5 +67,7 @@ body {
 }
 
 .bgColorImage {
-  background-color: #cebdbd;
+  background-color: rgba(80, 150, 150, 0.8);
+  border-bottom-right-radius: 20%;
+  border-bottom-left-radius: 20%;
 }

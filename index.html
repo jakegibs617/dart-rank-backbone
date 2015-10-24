@@ -9,10 +9,11 @@
 <body>
 
   <div class="site">
-
     <div class="logo">  
       <img src="images/site/logo.png" width="207" height="124" alt="Darts" />
     </div>
+
+    <h1 id="dartRankings">Dart Rankings</h1>
 
     <div id="allEntries"></div>
 
@@ -25,10 +26,9 @@
       <ul>
         <li class="entryInfo"><strong>Name:</strong> <%= name %></li>
         <li class="entryInfo"><strong>Score:</strong> <%= score %></li>
-        <li class="entryInfo"><strong>Rank:</strong> </li>
+        <li class="entryInfo"><strong>Rank:</strong> <%= rank %></li>
       </ul>
     </script>
-
 
   <script src="js/libs/jquery.js"></script>
   <script src="js/libs/underscore.js"></script>

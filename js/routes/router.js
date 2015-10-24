@@ -7,7 +7,10 @@ routes :{
 	"": "noCopy",
 	"firstDart" : "firstDartMessage",
 	"secondDart": "secondDartMessage",
-	"thirdDart" : "thirdDartMessage"
+	"thirdDart" : "thirdDartMessage",
+	"fourthDart" : "fourthDartMessage",
+	"fifthDart" : "fourthDartMessage",
+	"sixthDart" : "fourthDartMessage"
 },
 
 noCopy: function() {
@@ -15,15 +18,19 @@ noCopy: function() {
 },
 
 firstDartMessage: function() {
-  $("#copy").html("message 1");
+  $("#copy").html("Gold Medal Winner");
 },
 
 secondDartMessage: function() {
-  $("#copy").html("message 2");
+  $("#copy").html("Silver Medal Winner");
 },
 
 thirdDartMessage: function() {
-  $("#copy").html("message 3");
+  $("#copy").html("Bronze Medal Winner");
+},
+
+fourthDartMessage: function() {
+  $("#copy").html("Thanks For Playing");
 }
 
 });
