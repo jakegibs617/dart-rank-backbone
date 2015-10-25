@@ -43,6 +43,33 @@ var sixthDart = new app.singleEntry({
   link: "sixthDart"
 });
 
+var nametag = Backbone.Model.extend({
+  defaults: {
+     name: 'John Doe',
+     score: '3'
+  }
+});
+
+var nametagView = Backbone.View.extend({
+  initialize: function() {
+     _.bindAll(this);
+  }
+});
+
+$(document).ready(function(){
+  var myModel = new nametag();
+  var myView = new nametagView({
+     el: $('#nametagForm'),
+     model: myModel
+  });
+
+  myView.populate('nametag');
+  myView.parse('nametag');
+});
+
+
+
+
 var entryGroup = new app.EntriesCollection([
   firstDart, secondDart, thirdDart, fourthDart, fifthDart, sixthDart
 ]);

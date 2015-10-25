@@ -63,7 +63,7 @@ a {
   background-repeat: no-repeat;
   background-size: 100% 95px;
   color: rgba(250, 250, 250, 0.95);
-  font-size: 22px;
+  font-size: 20px;
   padding-top: 34px;
   margin: 10px auto;
   width: 300px;
@@ -114,4 +114,26 @@ a {
 .playerRank {
   padding-top: 0.75rem;
   margin-left: 3rem;
+}
+
+.formDarts {
+  text-align: left;
+  background-color: rgba(250, 250, 250, 0.95);
+  width: 25%;
+  margin-left: 37.5%;
+  margin-bottom: 2rem;
+  padding-top: 0.1rem;
+  padding-bottom: 1rem;
+  font-family: Century Gothic, Helvetica, Franklin Gothic Medium, sans-serif;
+}
+
+.formGroup {
+  margin-left: 1rem;
+}
+
+#playDarts {
+  margin-left: 1rem;
+  padding-top: 0.5rem;
+  font-weight: bold;
+  font-family: Century Gothic, Helvetica, Franklin Gothic Medium, sans-serif;
 }

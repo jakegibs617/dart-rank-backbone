@@ -14,9 +14,30 @@
     </div>
 
     <h1 id="dartRankings">Dart Rankings!</h1>
-    
-    <div id="copy"></div>
 
+    <div id="copy"></div>
+  
+    <div class="formDarts">    
+      <form role="form">
+        <div id="playDarts">Play Darts</div>
+
+        <div class="formGroup">
+          <label for="score">Score</label>
+          <input type="text" id="score" name="score" />
+        </div>
+
+        <div class="formGroup">
+          <label for="name" class="control-label">Name</label>
+          <select id="name" name="name">
+            <option>Jack</option>
+            <option>Jill</option>
+            <option>Mary</option>
+          </select>
+        </div>
+          <button type="button" id="submitButton" class="formGroup">Add to Rankings</button>
+      </form>
+    </div>
+   
     <div id="allEntries"></div>
 
 
@@ -29,6 +50,8 @@
         <li class="entryInfo playerRank"><strong>Rank:</strong> <%= rank %></li>
       </ul>
     </script>
+
+
 
   <script src="js/libs/jquery.js"></script>
   <script src="js/libs/underscore.js"></script>
