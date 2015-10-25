@@ -1,6 +1,7 @@
-Thank you for your interest in EverQuote.
+
+![Darts](http://i.imgur.com/WPUNvx5.jpg)
+
 ---------------------------------------
-This is a small problem we would like you to solve so that we may better understand your coding ability.
 
 ### Criteria
 We will be looking at your problem-solving ability, code quality, cleanliness, and professionalism.
@@ -59,6 +60,4 @@ We will test your application in Chrome. Please use code that would work in any 
 * Submitting your project as a github repo.
 * Clean and readable use of HAML, SASS, and/or Coffeescript
 * Surprise us!
-
-![Darts](http://i.imgur.com/NY7MDzi.png)
 

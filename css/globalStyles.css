@@ -1,17 +1,15 @@
 html {
-  background: #fff url(../images/site/html.jpg) repeat;
+  background-color: white;
 }
 
 body {
   font-family: Georgia, serif;
-  margin: 0;
-  padding-top: 3rem;
-  padding-bottom: 6rem;
+  padding-bottom: 3rem;
 }
 
 .site {
-  background-color: rgba(168, 124, 62, 0.8);
-  border: 1px solid black;
+  background-color: #FFD577;
+  background-image: url(../images/corkboard.png);
   width: 960px;
   min-height: 630px;
   padding-bottom: 3rem;
@@ -19,55 +17,101 @@ body {
 }
 
 .logo {
-  padding: 5px;
+  margin-left: 36.1rem;
+  margin-top: 2.7rem;
   position: absolute;
 }
 
 #dartRankings {
   text-align: center;
+  background-color: rgba(240, 240, 240, 0.9);
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  margin-bottom: -1.3rem;
+  font-family: Century Gothic, Helvetica, Franklin Gothic Medium, sans-serif;
 }
 
 .image {
-  border: 3px solid black;
   padding: 2px;
 }
 
 .entryListItem {
   display: inline-block;
+  background-color: rgba(240, 240, 240, 0.9);
   padding-bottom: 1rem;
+  padding-right: 1rem;
   margin: 10px;
   margin-bottom: 1rem;
   list-style-type: none;
+  font-family: Century Gothic, Helvetica, Franklin Gothic Medium, sans-serif;
+}
+
+a {
+  color: black;
+  text-decoration: none;
 }
 
 .entryInfo {
   list-style-type: none;
   text-align: left;
-  text-align: center;
   margin-bottom: 5px;
-  margin-left: -50px;
 }
 
 #copy {
   text-align: center;
-  color: black;
+  background-image: url(../images/banner.png);
+  background-repeat: no-repeat;
+  background-size: 100% 95px;
+  color: rgba(250, 250, 250, 0.95);
   font-size: 22px;
-  padding: 2rem;
-  margin: 10px auto 0;
-  width: 600px;
+  padding-top: 34px;
+  margin: 10px auto;
+  width: 300px;
+  height: 40px;
+  font-family: Century Gothic, Helvetica, Franklin Gothic Medium, sans-serif;
 }
 
 #allEntries {
   padding: 20px;
   margin: 0 auto;
-  text-align: center;
+  margin-top: -1rem;
   width: 750px;
-  background-color: rgba(201, 191, 183, 0.8);
-  border: 1px solid black;
 }
 
-.bgColorImage {
-  background-color: rgba(80, 150, 150, 0.8);
-  border-bottom-right-radius: 20%;
-  border-bottom-left-radius: 20%;
+#allEntries a {
+  margin-left: 5rem;
+}
+
+.bgColorImage a:hover {
+  color: #920B12;
+}
+
+.scoreChip {
+  background-color: #920B12;
+  color: white;
+  border-radius: 50%;
+  height: 2.1rem;
+  max-width: 2.1rem;
+  text-align: center;
+  font-size: 1.5rem;
+  margin-left: 4rem;
+  margin-top: -3rem;
+}
+
+.playerName {
+  font-size: 1.5rem;
+  padding-bottom: 1rem;
+}
+
+.playerScore {
+  display: inline-block;
+  text-align: left;
+  padding-right: 1rem;
+  padding-bottom: 1rem;
+  margin-top: -0.5rem;
+}
+
+.playerRank {
+  padding-top: 0.75rem;
+  margin-left: 3rem;
 }
